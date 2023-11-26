@@ -1,0 +1,7 @@
+kubectl get all
+
+kubectl create deploy nginx --image=nginx
+
+kubectl get pods
+
+kubectl port-forward pod/{NAME OUTPUT FROM LAST COMMAND} 8181:80
